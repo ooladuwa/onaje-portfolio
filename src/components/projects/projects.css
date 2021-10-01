@@ -1,0 +1,130 @@
+/*** projects ***/
+
+/*** Entire project page ***/
+#projects {
+  padding: 4em 6em 3em;
+  background-color: #ae9142;
+}
+
+/*** Section headlines ***/
+#projects h2 {
+  color: #00843d;
+  margin-bottom: 0.4em;
+}
+
+#projects .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #0c2340;
+  /* border: solid red 2px; */
+}
+
+/*** Wraps each project ***/
+#projects .project-wrapper {
+  display: flex;
+  position: relative;
+  /* padding: 1em 2em; */
+  border-bottom: 1px solid #fbc403;
+  border-top: 1px solid #fbc403;
+}
+
+/*** Screenshots ***/
+#projects .image-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 1em 2em;
+  /* border: 2px solid green; */
+}
+
+#projects img {
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  background-size: cover;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.mid {
+  /* display: flex; */
+}
+
+/*** Icons ***/
+#projects i {
+  margin-top: 0.2em;
+  font-size: 1.6em;
+  /* padding: 0.1em 0.4em; */
+  color: #0c2340;
+}
+
+/*** Details ***/
+.details-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0em 2em;
+  /* border: 2px solid blueviolet; */
+}
+
+.details h3 {
+  color: #0c2340;
+  text-transform: uppercase;
+}
+
+.details .platform {
+  position: relative;
+  margin-bottom: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: "Maven pro", sans-serif;
+  font-weight: 500;
+  color: #fbc403;
+}
+
+.details i {
+  margin-right: 1em;
+}
+
+.details p {
+  position: relative;
+  margin-bottom: 2em;
+  color: #0c2340;
+  font-family: "Maven pro", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+/* Buttons */
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-wrapper {
+  position: relative;
+  margin-right: 3em;
+}
+
+.details a,
+.details a:link,
+.details a:active {
+  color: #0c2340;
+  text-transform: uppercase;
+  border: 2px solid #0a0a0a;
+  border-radius: 50px;
+  background: #ffdd03;
+  align-items: center;
+}
+
+.details a:hover,
+.details a:focus {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 14px 1px rgba(0, 0, 0, 0.15);
+  color: #ffdd03;
+  background-color: #0c2340;
+}

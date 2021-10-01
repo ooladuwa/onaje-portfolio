@@ -1,0 +1,40 @@
+/*** Footer Call-to-action ***/
+#footer-cta {
+  background-color: #0c2340;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-cta h2 {
+  color: #ffdd03;
+}
+
+#footer-cta p {
+  color: #ffdd03;
+  font-family: "Maven pro", sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+/*** footer button ***/
+.cta {
+  /* border: 1px solid red; */
+  margin-bottom: 2em;
+}
+
+#footer-cta a {
+  border: 2px solid #ffdd03;
+  border-radius: 45px;
+  color: #ffdd03;
+}
+
+#footer-cta a:hover {
+  background: #ffdd03;
+  color: #0c2340;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 14px 1px rgba(0, 0, 0, 0.15);
+}

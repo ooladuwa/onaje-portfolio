@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/Home.js";
+import About from "./components/About.js";
+import Resume from "./components/Resume.js";
+// import Navbar from "./components/navbar/Navbar.js";
+import FooterCTA from "./components/FooterCTA.js";
+import Footer from "./components/Footer.js";
 
 function App() {
+  const ThemeContext = React.createContext("typed");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="box-border text-chinese-black">
+      <ThemeContext.Provider value="typed">
+        <Router>
+          {/* <Navbar /> */}
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" exact component={About} />
+            <Route path="/resume" exact component={Resume} />
+          </Switch>
+          <FooterCTA />
+          <Footer />
+        </Router>
+      </ThemeContext.Provider>
+    </main>
   );
 }
 
