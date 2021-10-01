@@ -6,7 +6,7 @@ import naj from "../assets/images/darkNaj.jpeg";
 
 const Intro = () => {
   return (
-    <section id="intro" className="flex flex-col justify-center align-middle">
+    <section id="intro" className="item-center">
       {/* <video src={video} autoPlay loop muted /> */}
       <div className="container bg-hero bg-local min-w-full mx-auto flex px-10 py-20 flex-col justify-center align-center text-dome-gold">
         <img

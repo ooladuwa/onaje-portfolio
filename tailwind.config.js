@@ -57,21 +57,6 @@ module.exports = {
           fontWeight: "600",
         },
         ".btn-intro": {
-<<<<<<< HEAD
-          backgroundColor: "#ffdd03",
-          color: "#0a0a0a",
-          "&:hover": {
-            backgroundColor: "#0a0a0a",
-            color: "#ffdd03",
-          },
-        },
-        ".btn-projects": {
-          backgroundColor: "#ffdd03",
-          color: "#0c2340",
-          "&:hover": {
-            backgroundColor: "#0c2340",
-            color: "#ffdd03",
-=======
           backgroundColor: "#0a0a0a",
           color: "#ffdd03",
           "&:hover": {
@@ -85,7 +70,6 @@ module.exports = {
           "&:hover": {
             backgroundColor: "#ffdd03",
             color: "#0c2340",
->>>>>>> 1c1ea986b8e2e4eaf370abdb9f4195f078c4171b
           },
         },
       };

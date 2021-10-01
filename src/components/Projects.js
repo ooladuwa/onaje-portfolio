@@ -26,7 +26,7 @@ const Projects = () => {
           <p className="icons">
             <i className="fas fa-desktop"></i>
             <i className="fas fa-tablet"></i>
-            <i class="fas fa-mobile"></i>
+            <i className="fas fa-mobile"></i>
           </p>
           <p>
             The Blue Witness Project is an app designed to collect and
@@ -40,7 +40,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a"
               >
                 FE Repo
@@ -50,7 +50,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://github.com/Lambda-School-Labs/human-rights-first-police-be-a"
               >
                 BE Repo
@@ -60,7 +60,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://a.humanrightsfirst.dev/"
               >
                 Site
@@ -84,7 +84,7 @@ const Projects = () => {
           <p className="icons">
             <i className="fas fa-desktop"></i>
             <i className="fas fa-tablet"></i>
-            <i class="fas fa-mobile"></i>
+            <i className="fas fa-mobile"></i>
           </p>
           <p>
             Secret Family Recipes is a React front-end Node.js/Express back-end
@@ -98,7 +98,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://github.com/secret-family-recipes-6-pt"
               >
                 BE Repo
@@ -108,7 +108,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://lambda-build-week-secret-recipes.netlify.app/"
               >
                 Site
@@ -121,7 +121,7 @@ const Projects = () => {
       <div className="project-wrapper">
         <div className="image-wrapper">
           <img
-            classname="screenshot"
+            className="screenshot"
             src={potluck}
             alt="screenshot of webpage displaying sign up form over people enjoying time together"
           />
@@ -132,7 +132,7 @@ const Projects = () => {
           <p className="icons">
             <i className="fas fa-desktop"></i>
             <i className="fas fa-tablet"></i>
-            <i class="fas fa-mobile"></i>
+            <i className="fas fa-mobile"></i>
           </p>
           <p>
             Potluck Planner utilizes React for front-end and Redux for
@@ -145,7 +145,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://github.com/orgs/potluck-tt4/repositories"
               >
                 FE Repo
@@ -155,7 +155,7 @@ const Projects = () => {
               <a
                 className="my-button"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 href="https://potluck-azure.vercel.app"
               >
                 Site

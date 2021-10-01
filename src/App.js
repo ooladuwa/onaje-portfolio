@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Resume from "./components/Resume.js";
-// import Navbar from "./components/navbar/Navbar.js";
+import Navbar from "./components/Navbar.js";
 import FooterCTA from "./components/FooterCTA.js";
 import Footer from "./components/Footer.js";
 
@@ -14,7 +14,7 @@ function App() {
     <main className="box-border text-chinese-black">
       <ThemeContext.Provider value="typed">
         <Router>
-          {/* <Navbar /> */}
+          <Navbar />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
