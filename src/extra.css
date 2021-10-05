@@ -1,4 +1,11 @@
-const Portfolio = (function () {
+#intro {
+  background: url("./assets/images/night.jpg") center center/cover no-repeat;
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+/* const Portfolio = (function () {
   function makeWords() {
     const words = [
       {
@@ -38,7 +45,7 @@ const Portfolio = (function () {
         weight: 7,
       },
     ];
-    return words;
+    return words
   }
 
   function makeWordCloud(words) {
@@ -67,4 +74,4 @@ const Portfolio = (function () {
   };
 })();
 
-Portfolio.displayWordCloud();
+Portfolio.displayWordCloud(); */

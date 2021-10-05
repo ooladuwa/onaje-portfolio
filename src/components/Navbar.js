@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <section id="navbar">
-      <div className="container flex justify-around py-2 mb-4 bg-metallic-gold min-w-full">
-        <Link to="/" className="text-vampire-black hover:text-goldenrod-yellow">
+      <div className="container flex justify-around py-4 tablet:justify-between tablet:px-4 tablet:text-lg bg-vampire-black min-w-full">
+        <Link to="/" className="text-metallic-gold hover:text-golden-yellow">
           Home
         </Link>
 
         <Link
           to="/about"
-          className="text-vampire-black hover:text-goldenrod-yellow"
+          className="text-metallic-gold hover:text-golden-yellow"
         >
           About Me
         </Link>
 
         <Link
           to="/resume"
-          className="text-vampire-black hover:text-goldenrod-yellow"
+          className="text-metallic-gold hover:text-golden-yellow"
         >
           Resume
         </Link>

@@ -1,9 +1,18 @@
 const plugin = require("tailwindcss/plugin");
+// const naj = require("./src/assets/images/night.jpg");
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    minHeight: {
+      0: "0",
+      "1/4": "25vh",
+      "1/2": "50vh",
+      "3/4": "75vh",
+      close: "90vh",
+      full: "100vh",
+    },
     screens: {
       tablet: "640px",
       // => @media (min-width: 640px) { ... }
@@ -19,7 +28,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        hero: "url('/src/assets/images/night.jpg')",
+        naj: "url('/onaje-portfolio/src/assets/images/night.jpg')",
       }),
       screens: {
         baller: "1980px",
@@ -53,27 +62,38 @@ module.exports = {
       const buttons = {
         ".btn-intro": {
           padding: ".5rem 1rem",
-          borderRadius: "50%",
-          // margin: "1rem",
+          borderRadius: "12",
           fontWeight: "600",
-          backgroundColor: "#0a0a0a",
-          border: "solid 2px #ffdd03",
-          color: "#ffdd03",
+          backgroundColor: "#ffdd03",
+          border: "solid 2px #0a0a0a",
+          color: "#0a0a0a",
+
           "&:hover": {
-            backgroundColor: "#ffdd03",
-            border: "solid 2px #0a0a0a",
-            color: "#0a0a0a",
+            backgroundColor: "#0a0a0a",
+            border: "solid 2px #ffdd03",
+            color: "#ffdd03",
           },
         },
         ".btn-project": {
           padding: ".5rem 1rem",
-          borderRadius: "60%",
+          borderRadius: "12",
           fontWeight: "600",
           backgroundColor: "#0c2340",
           color: "#ffdd03",
           "&:hover": {
             backgroundColor: "#ffdd03",
             color: "#0c2340",
+          },
+        },
+        ".btn-cta": {
+          padding: ".5rem 1rem",
+          borderRadius: "50%",
+          fontWeight: "600",
+          backgroundColor: "#FBC403",
+          color: "#0a0a0a",
+          "&:hover": {
+            backgroundColor: "#0a0a0a",
+            color: "#FBC403",
           },
         },
       };
