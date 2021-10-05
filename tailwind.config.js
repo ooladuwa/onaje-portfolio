@@ -51,20 +51,24 @@ module.exports = {
   plugins: [
     plugin(function ({ addComponents }) {
       const buttons = {
-        ".btn": {
-          padding: ".5rem 1rem",
-          borderRadius: ".25rem",
-          fontWeight: "600",
-        },
         ".btn-intro": {
+          padding: ".5rem 1rem",
+          borderRadius: "50%",
+          // margin: "1rem",
+          fontWeight: "600",
           backgroundColor: "#0a0a0a",
+          border: "solid 2px #ffdd03",
           color: "#ffdd03",
           "&:hover": {
             backgroundColor: "#ffdd03",
+            border: "solid 2px #0a0a0a",
             color: "#0a0a0a",
           },
         },
         ".btn-project": {
+          padding: ".5rem 1rem",
+          borderRadius: "60%",
+          fontWeight: "600",
           backgroundColor: "#0c2340",
           color: "#ffdd03",
           "&:hover": {

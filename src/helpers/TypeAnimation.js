@@ -29,7 +29,7 @@ const TypeAnimation = () => {
   }, []);
 
   return (
-    <div className="">
+    <div className="text-vampire-black m-4">
       <span ref={element} />
     </div>
   );

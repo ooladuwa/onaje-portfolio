@@ -4,7 +4,7 @@ import "../assets/styles/animations.css";
 
 const MyTech = () => {
   return (
-    <section id="myTech">
+    <section id="myTech" className="bg-irish-green">
       <h2 className="">My Tech</h2>
       <p className="">Constant learner === Continued growth</p>
       <div className="">
