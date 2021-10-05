@@ -11,7 +11,7 @@ import Footer from "./components/Footer.js";
 function App() {
   const ThemeContext = React.createContext("typed");
   return (
-    <main className="box-border text-chinese-black">
+    <main className="text-chinese-black container w-min min-w-full body-font bg-goldenrod-yellow">
       <ThemeContext.Provider value="typed">
         <Router>
           <Navbar />

@@ -4,15 +4,12 @@ import React from "react";
 const FooterCTA = () => {
   return (
     <section id="footer-cta">
-      <div className="cta">
-        <h2 className="text-center">Want to collaborate?</h2>
-        <p className="text-center">I'm available</p>
+      <div className="">
+        <h2 className="">Want to collaborate?</h2>
+        <p className="">I'm available</p>
       </div>
-      <div className="cta">
-        <a
-          className="my-button form-button"
-          href="mailto:onaje.oladuwa@gmail.com"
-        >
+      <div className="">
+        <a className="" href="mailto:onaje.oladuwa@gmail.com">
           Contact Me
         </a>
       </div>

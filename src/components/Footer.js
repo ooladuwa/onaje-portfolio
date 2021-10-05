@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer id="footer">
-      <div className="text-center">
+      <div className="">
         <div>
           <p id="logo">OO</p>
           <p id="copyright">Copyright &copy; 2021 | Onaje Oladuwa</p>

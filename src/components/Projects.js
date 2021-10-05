@@ -8,21 +8,21 @@ import potluck from "../assets/images/potluck_planner.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="intro">
+      <div className="">
         <h2>My Projects</h2>
         <h4>Check out a sample of my work:</h4>
       </div>
 
-      <div className="project-wrapper">
-        <div className="image-wrapper">
+      <div className="">
+        <div className="">
           <img
             src={blueWitness}
             alt="screenshot of website displaying map with circular clusters of numbers"
           />
         </div>
-        <div className="details details-wrapper">
+        <div className="">
           <h3>Blue Witness Project</h3>
-          <p className="platform">Web</p>
+          <p className="">Web</p>
           <p className="icons">
             <i className="fas fa-desktop"></i>
             <i className="fas fa-tablet"></i>
@@ -35,10 +35,10 @@ const Projects = () => {
             contribute to a single source of truth on the topic of police
             use-of-force.
           </p>
-          <div className="buttons-container">
-            <div className="button-wrapper one">
+          <div className="">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a"
@@ -46,9 +46,9 @@ const Projects = () => {
                 FE Repo
               </a>
             </div>
-            <div className="button-wrapper three">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/Lambda-School-Labs/human-rights-first-police-be-a"
@@ -56,9 +56,9 @@ const Projects = () => {
                 BE Repo
               </a>
             </div>
-            <div className="button-wrapper two">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://a.humanrightsfirst.dev/"
@@ -70,17 +70,17 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="project-wrapper">
-        <div className="image-wrapper">
+      <div className="">
+        <div className="">
           <img
-            className="screenshot"
+            className=""
             src={sfr}
             alt="screenshot of webpage showing different recipe cards"
           />
         </div>
-        <div className="details details-wrapper">
+        <div className="">
           <h3>Secret Family Recipes</h3>
-          <p className="platform">Web</p>
+          <p className="">Web</p>
           <p className="icons">
             <i className="fas fa-desktop"></i>
             <i className="fas fa-tablet"></i>
@@ -93,10 +93,10 @@ const Projects = () => {
             create an account, login/logout, and create, store, edit, delete,
             and search recipes.
           </p>
-          <div className="buttons-container">
-            <div className="button-wrapper">
+          <div className="">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/secret-family-recipes-6-pt"
@@ -104,9 +104,9 @@ const Projects = () => {
                 BE Repo
               </a>
             </div>
-            <div className="button-wrapper two">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://lambda-build-week-secret-recipes.netlify.app/"
@@ -118,17 +118,17 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="project-wrapper">
-        <div className="image-wrapper">
+      <div className="">
+        <div className="">
           <img
-            className="screenshot"
+            className=""
             src={potluck}
             alt="screenshot of webpage displaying sign up form over people enjoying time together"
           />
         </div>
-        <div className="details details-wrapper">
+        <div className="">
           <h3>Potluck Planner</h3>
-          <p className="platform">Web</p>
+          <p className="">Web</p>
           <p className="icons">
             <i className="fas fa-desktop"></i>
             <i className="fas fa-tablet"></i>
@@ -140,10 +140,10 @@ const Projects = () => {
             planning and execution through a collective platform which
             transforms a normally solitary process into a community experience.
           </p>
-          <div className="buttons-container">
-            <div className="button-wrapper one">
+          <div className="">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/orgs/potluck-tt4/repositories"
@@ -151,9 +151,9 @@ const Projects = () => {
                 FE Repo
               </a>
             </div>
-            <div className="button-wrapper two">
+            <div className="">
               <a
-                className="my-button"
+                className=""
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://potluck-azure.vercel.app"

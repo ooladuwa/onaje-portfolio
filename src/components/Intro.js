@@ -6,22 +6,22 @@ import naj from "../assets/images/darkNaj.jpeg";
 
 const Intro = () => {
   return (
-    <section id="intro" className="item-center">
+    <section id="intro">
       {/* <video src={video} autoPlay loop muted /> */}
-      <div className="container bg-hero bg-local min-w-full mx-auto flex px-10 py-20 flex-col justify-center align-center text-dome-gold">
+      <div className="text-dome-gold">
         <img
           src={naj}
           alt="man who built site in circular frame"
           className="rounded-full h-48 w-48 border-2 border-solid border-golden-yellow"
         />
-        <h2 className="m-2">Hi, I'm Onaje. I...</h2>
+        <h2 className="">Hi, I'm Onaje. I...</h2>
         <TypeAnimation />
-        <div className="btn m-4">
+        <div className="">
           <a href="mailto:onaje.oladuwa@gmail.com">Get In Touch</a>
         </div>
-        <div className="flex justify-center align-middle">
+        <div className="">
           <a href="https://www.linkedin.com/in/ooladuwa/">
-            <i className="fab fa-linkedin-in mr-8"></i>
+            <i className="fab fa-linkedin-in"></i>
           </a>
           <a href="https://github.com/ooladuwa">
             <i className="fab fa-github-alt"></i>

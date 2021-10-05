@@ -5,12 +5,10 @@ import "../assets/styles/animations.css";
 const MyTech = () => {
   return (
     <section id="myTech">
-      <h2 className="text-center">My Tech</h2>
-      <p className="text-center tag-line">
-        Constant learner === Continued growth
-      </p>
-      <div className="myTech-row">
-        <div className="text-center myTech-topics">
+      <h2 className="">My Tech</h2>
+      <p className="">Constant learner === Continued growth</p>
+      <div className="">
+        <div className=" ">
           <i className="fas fa-laptop"></i>
           <h3>Front-end</h3>
           <ul>
@@ -27,7 +25,7 @@ const MyTech = () => {
             <li>Cypress</li>
           </ul>
         </div>
-        <div className="text-center myTech-topics">
+        <div className="">
           <i className="fas fa-database"></i>
           <h3>Back-end</h3>
           <ul>
@@ -43,7 +41,7 @@ const MyTech = () => {
             <li>SQLite(3)</li>
           </ul>
         </div>
-        <div className="text-center myTech-topics">
+        <div className="">
           <i className="fas fa-tools"></i>
           <h3>Tools</h3>
           <ul>
