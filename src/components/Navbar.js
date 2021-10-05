@@ -1,11 +1,10 @@
 import React from "react";
-// import "./navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <section id="navbar">
-      <div className="container flex justify-around mb-8 bg-metallic-gold min-w-full">
+      <div className="container flex justify-around py-2 mb-4 bg-metallic-gold min-w-full">
         <Link to="/" className="text-vampire-black hover:text-goldenrod-yellow">
           Home
         </Link>

@@ -18,9 +18,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      backgroundImage: {
+      backgroundImage: (theme) => ({
         hero: "url('/src/assets/images/night.jpg')",
-      },
+      }),
       screens: {
         baller: "1980px",
         // => @media (min-width: 1600px) { ... }

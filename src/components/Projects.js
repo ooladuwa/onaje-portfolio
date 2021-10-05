@@ -1,5 +1,4 @@
 import React from "react";
-// import "./projects.css";
 import "../assets/styles/animations.css";
 import blueWitness from "../assets/images/blue_witness.png";
 import sfr from "../assets/images/secret_family_recipes.png";
@@ -8,8 +7,8 @@ import potluck from "../assets/images/potluck_planner.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="">
-        <h2>My Projects</h2>
+      <div className="flex flex-col items-center py-4 min-w-full bg-hero">
+        <h2 className="text-nd-blue text-3xl mb-4">My Projects</h2>
         <h4>Check out a sample of my work:</h4>
       </div>
 
