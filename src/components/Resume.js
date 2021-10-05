@@ -5,9 +5,9 @@ import PdfViewer from "./PdfViewer";
 const Resume = () => {
   return (
     <section id="resumeContainer">
-      <div className="pdfContainer">
+      <div className="container  bg-goldenrod-yellow flex flex-col items-center justify-center py-4 min-w-full min-h-close">
         {/* <h1>My Tech Resume</h1> */}
-        <div className="resume">
+        <div className="self-center flex justify-center border-4 border-nd-blue w-4/6">
           <PdfViewer />
         </div>
       </div>
