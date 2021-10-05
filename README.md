@@ -1,3 +1,5 @@
 ## Credits
 
-Re imagined/designed by Onaje Oladuwa from template by Tenzin Phuljung.
+Imagined & designed by Onaje Oladuwa.
+
+This portfolio was designed mobile-first.
