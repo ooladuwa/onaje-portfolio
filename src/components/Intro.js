@@ -1,6 +1,6 @@
 import React from "react";
 import TypeAnimation from "../helpers/TypeAnimation.js";
-import "../animations.css";
+// import "../animations.css";
 import naj from "../assets/images/darkNaj.jpeg";
 // import "../extra.css";
 
