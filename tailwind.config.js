@@ -54,16 +54,14 @@ module.exports = {
         // "golden-yellow": "#FFDD03", // golden yellow
         // "golden-poppy": "#FBC403", // golden poppy
         // "irish-green": "#00843D", // Irish green
-        "vampire-black": "#0A0A0A", // vampire black
         cloud: "#F3F3F3",
-        "light-grey": "#DCE1E3",
-        "grey-water": "#5C5F58",
-        "bright-red": "#DE354C",
-        "red-highlight": "#B73225",
-        "deep-red": "#932432",
-        "blue-minded": "#004E7C",
-        "pure-purple": "#3C1874",
-        "purple-tinged-grey": "#283747",
+        vamp: "#0A0A0A", //vampire black
+        rich: "#030303", // rich black
+        onyx: "#3F4045", // onyx
+        lav: "#D0C4DF", //languid lavender
+        sheen: "#5DB2A5", // green sheen
+        minion: "#F4E04E", //minion yellow
+        jet: "#333333", // jet
       },
       fontFamily: {
         sans: ["Inter var"],

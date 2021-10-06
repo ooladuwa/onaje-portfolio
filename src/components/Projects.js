@@ -13,7 +13,7 @@ const Projects = () => {
           Check out a sample of my work:
         </h4>
 
-        <div className="bg-purple-tinged-grey rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
+        <div className="bg-cloud rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
           <div
             id="project1"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between flex-shrink-0"
@@ -73,7 +73,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-pure-purple rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-cloud rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project2"
             className="flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between "
@@ -125,7 +125,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-deep-red rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-cloud rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project3"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between "

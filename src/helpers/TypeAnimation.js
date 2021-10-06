@@ -7,8 +7,8 @@ const TypeAnimation = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "I am a Full-Stack Web Developer.",
-        "I am an experienced EDUCATOR.",
+        "Full-Stack Web Developer.",
+        "experienced EDUCATOR.",
         "I recharge via TRAVEL and FARMING.",
         "I thrive when solving COMPLEX PROBLEMS!",
       ],
@@ -23,7 +23,7 @@ const TypeAnimation = () => {
   }, []);
 
   return (
-    <div className="text-red-highlight text-lg tablet:text-2xl laptop:text-4xl p-6 mt-6 mb-6 tablet:mb-8">
+    <div className="text-minion text-lg tablet:text-2xl laptop:text-4xl p-6 mt-6 mb-6 tablet:mb-8">
       <span ref={element} />
     </div>
   );

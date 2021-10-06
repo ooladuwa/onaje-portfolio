@@ -13,8 +13,8 @@ const MyTech = () => {
               Constant learner === Continued growth
             </p> */}
           </div>
-          <div className="flex flex-col items-center tablet:flex-row tablet:justify-around tablet:items-start min-w-full py-4">
-            <div className="bg-cloud rounded-xl shadow-xl p-8 flex flex-col items-center">
+          <div className="flex flex-col items-center tablet:flex-row tablet:justify-around tablet:items-start min-w-full py-4 min-h-0">
+            <div className="bg-cloud rounded-xl shadow-xl p-8 flex flex-col items-center min-h-1/4">
               <i className="fas fa-laptop text-red-highlight text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
               <h3 className="text-blue-minded text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
                 Front-end
@@ -27,18 +27,17 @@ const MyTech = () => {
                 <li>CSS(3)</li>
                 <li>Tailwind CSS</li>
                 <li>Bootstrap(4)</li>
-                <li>Foundation</li>
                 <li>Jest</li>
                 <li>React Testing Library</li>
                 <li>Cypress</li>
               </ul>
             </div>
-            <div className="bg-cloud rounded-xl shadow-xl p-8 flex flex-col items-center">
+            <div className="bg-cloud rounded-xl shadow-xl p-8 flex flex-col items-center min-h-1/4">
               <i className="fas fa-database text-red-highlight text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
               <h3 className="text-blue-minded text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
                 Back-end
               </h3>
-              <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl text-vampire-black ">
+              <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl text-vampire-black">
                 <li>Express</li>
                 <li>Node JS</li>
                 <li>Python</li>
@@ -51,12 +50,12 @@ const MyTech = () => {
                 <li>SQLite(3)</li>
               </ul>
             </div>
-            <div className="bg-cloud rounded-xl shadow-xl p-8 flex flex-col items-center">
+            <div className="bg-cloud rounded-xl shadow-xl p-8 flex flex-col items-center min-h-1/4">
               <i className="fas fa-tools text-red-highlight text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
               <h3 className="text-blue-minded text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
                 Tools
               </h3>
-              <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl  text-vampire-black ">
+              <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl  text-vampire-black">
                 <li>Github</li>
                 <li>Postman</li>
                 <li>npm</li>
