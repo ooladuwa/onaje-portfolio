@@ -20,15 +20,15 @@ const Intro = () => {
             I'm Onaje.
           </h2>
           <TypeAnimation />
-          <button className="btn py-2 px-4 mb-8 text-lg laptop:text-xl laptop:mb-12 transition">
+          <button className="btn rounded-full text-lg laptop:text-xl laptop:mb-12 transition">
             <a href="mailto:onaje.oladuwa@gmail.com">Get In Touch</a>
           </button>
           <div className="container flex justify-center mb-4">
             <a href="https://www.linkedin.com/in/ooladuwa/">
-              <i className="fab fa-linkedin-in text-lav hover:text-cloud text-xl tablet:text-2xl laptop:text-3xl mx-4 tablet:mx-8"></i>
+              <i className="fab fa-linkedin-in text-lav hover:text-sheen text-xl tablet:text-2xl laptop:text-3xl mx-4 tablet:mx-8"></i>
             </a>
             <a href="https://github.com/ooladuwa">
-              <i className="fab fa-github-alt text-lav hover:text-cloud text-xl tablet:text-2xl laptop:text-3xl mx-4 tablet:mx-8"></i>
+              <i className="fab fa-github-alt text-lav hover:text-sheen text-xl tablet:text-2xl laptop:text-3xl mx-4 tablet:mx-8"></i>
             </a>
           </div>
         </div>

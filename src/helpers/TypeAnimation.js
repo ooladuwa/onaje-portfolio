@@ -10,7 +10,7 @@ const TypeAnimation = () => {
         "Full-Stack Web Developer.",
         "experienced EDUCATOR.",
         "I recharge via TRAVEL and FARMING.",
-        "I thrive when solving COMPLEX PROBLEMS!",
+        "I thrive solving COMPLEX PROBLEMS!",
       ],
       typeSpeed: 50,
       backSpeed: 25,

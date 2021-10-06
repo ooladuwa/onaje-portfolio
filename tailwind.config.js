@@ -69,14 +69,14 @@ module.exports = {
           padding: ".5rem 1rem",
           borderRadius: "12",
           fontWeight: "600",
-          backgroundColor: "#004E7C",
-          border: "solid 2px #932432",
-          color: "#DCE1E3",
+          backgroundColor: "#5db2a5",
+          border: "solid 2px #030303",
+          color: "#030303",
 
           "&:hover": {
-            backgroundColor: "#283747",
-            border: "solid 2px #DCE1E3",
-            color: "#DE354C",
+            backgroundColor: "#d0c4df",
+            border: "solid 2px #030303",
+            color: "#030303",
           },
         },
       };
