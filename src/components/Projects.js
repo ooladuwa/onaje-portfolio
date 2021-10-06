@@ -5,8 +5,8 @@ import sfr from "../assets/images/secret_family_recipes.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="bg-goldenrod-yellow flex flex-col items-center justify-center p-4 tablet:p-8 min-w-full">
-        <h2 className="text-vampire-black text-3xl mb-4 tablet:mb-8">
+      <div className="bg-lighter-grey flex flex-col items-center justify-center p-4 tablet:p-8 min-w-full">
+        <h2 className="text-grey-water text-3xl mb-4 tablet:mb-8">
           My Projects
         </h2>
         <h4 className="text-xl mb-4 tablet:mb-8">

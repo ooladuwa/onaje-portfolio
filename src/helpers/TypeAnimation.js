@@ -7,10 +7,10 @@ const TypeAnimation = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "am a Full-Stack Web Developer.",
-        "am an experienced educator",
-        "recharge via travel and farming",
-        "thrive when solving complex problems!",
+        "I am a Full-Stack Web Developer.",
+        "I am an experienced EDUCATOR.",
+        "I recharge via TRAVEL and FARMING.",
+        "I thrive when solving COMPLEX PROBLEMS!",
       ],
       typeSpeed: 50,
       backSpeed: 25,
@@ -23,7 +23,7 @@ const TypeAnimation = () => {
   }, []);
 
   return (
-    <div className="text-dome-gold text-lg tablet:text-xl laptop:text-2xl p-6 mt-8 mb-8 tablet:mb-16">
+    <div className="text-dome-gold text-lg tablet:text-2xl laptop:text-4xl p-6 mt-6 mb-6 tablet:mb-8">
       <span ref={element} />
     </div>
   );

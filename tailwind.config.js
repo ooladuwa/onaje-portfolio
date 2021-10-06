@@ -28,7 +28,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        naj: "url('/onaje-portfolio/src/assets/images/night.jpg')",
+        naj: "url('/src/assets/images/night.jpg')",
       }),
       screens: {
         baller: "1980px",
@@ -38,13 +38,12 @@ module.exports = {
         // => @media (min-width: 2560px) { ... }
       },
       colors: {
-        "raisin-black": "#241F1E", // raisin black
         "chinese-black": "#151515", // chinese black
-        "vampire-black": "#0A0A0A", // vampire black
+        "grey-water": "#5C5F58", // vampire black
         "nd-blue": "#0C2340", // ND blue
         "dome-gold": "#C99700", // standard dome gold
         "metallic-gold": "#AE9142", // metallic gold
-        "goldenrod-yellow": "#FBFCD4", // light goldenrod yellow
+        "lighter-grey": "#DCE1E3", // light goldenrod yellow
         "golden-yellow": "#FFDD03", // golden yellow
         "golden-poppy": "#FBC403", // golden poppy
         "irish-green": "#00843D", // Irish green
