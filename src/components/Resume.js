@@ -1,6 +1,5 @@
 // import React from "react";
 // import PdfViewer from "./PdfViewer";
-// // import "./resume.css";
 
 // const Resume = () => {
 //   return (

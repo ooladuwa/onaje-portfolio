@@ -1,5 +1,4 @@
 import React from "react";
-// import "./footerCTA.css";
 
 const FooterCTA = () => {
   return (

@@ -13,9 +13,9 @@ const Navbar = () => {
           About Me
         </Link>
 
-        <Link to="/resume" className="text-dome-gold hover:text-golden-yellow">
+        {/* <Link to="/resume" className="text-dome-gold hover:text-golden-yellow">
           Resume
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
