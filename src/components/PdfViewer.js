@@ -11,8 +11,12 @@ const PdfViewer = () => {
   }
 
   return (
-    <div className="m-8 p-4 w-3/4 bg-golden-poppy flex justify-center">
-      <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
+    <div className="w-11/12 p-12 laptop:bg-golden-poppy flex justify-center object-fill">
+      <Document
+        className="laptop:object-contain object-scale-down"
+        file={resume}
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
         {Array.from(new Array(numPages), (el, index) => (
           <Page key={`page_${index + 1}`} pageNumber={index + 1} />
         ))}
