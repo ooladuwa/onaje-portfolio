@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/styles/animations.css";
 import blueWitness from "../assets/images/blue_witness.png";
 import sfr from "../assets/images/secret_family_recipes.png";
 import potluck from "../assets/images/potluck_planner.png";

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <section id="navbar">
-      <div className="container flex justify-around py-4 tablet:justify-between tablet:px-4 tablet:text-lg bg-chinese-black min-w-full">
+      <div className="container flex justify-around py-4 tablet:justify-between tablet:px-4 tablet:text-lg bg-vampire-black min-w-full">
         <Link to="/" className="text-dome-gold hover:text-golden-yellow">
           Home
         </Link>

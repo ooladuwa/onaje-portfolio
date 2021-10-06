@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/styles/animations.css";
 
 const MyTech = () => {
   return (
