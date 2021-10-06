@@ -87,7 +87,7 @@ module.exports = {
         },
         ".btn-cta": {
           padding: ".5rem 1rem",
-          borderRadius: "50%",
+          borderRadius: "12%",
           fontWeight: "600",
           backgroundColor: "#FBC403",
           color: "#0a0a0a",
