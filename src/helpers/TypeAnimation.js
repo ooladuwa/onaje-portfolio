@@ -7,10 +7,10 @@ const TypeAnimation = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Full-Stack Web Developer.",
-        "experienced EDUCATOR.",
-        "I recharge via TRAVEL and FARMING.",
-        "I thrive solving COMPLEX PROBLEMS!",
+        "FULL-STACK WEB DEVELOPER",
+        "EXPERIENCED EDUCATOR",
+        "RECHARGE VIA TRAVEL",
+        "PROBLEM SOLVER!",
       ],
       typeSpeed: 50,
       backSpeed: 25,
