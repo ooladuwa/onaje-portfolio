@@ -1,16 +1,16 @@
 import React from "react";
 import TypeAnimation from "../helpers/TypeAnimation.js";
-import "../animations.css";
+import "../helpers/animations.css";
 import naj from "../assets/images/darkNaj.jpeg";
 
 const Intro = () => {
   return (
     <section id="intro">
-      <div className="container  bg-goldenrod-yellow flex flex-col items-center justify-center py-4 min-w-full min-h-close">
+      <div className="container bg-goldenrod-yellow flex flex-col items-center justify-center py-4 min-w-full min-h-close">
         <img
           src={naj}
           alt="man who built site in circular frame"
-          className="rounded-full h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-72 laptop:w-72 border-2 border-solid border-golden-yellow"
+          className="rounded-full shadow h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-72 laptop:w-72 border-2 border-solid border-golden-yellow box"
         />
         <h2 className="mt-8 tablet:mt-16 text-2xl tablet:text-3xl laptop:text-4xl text-vampire-black">
           Hi, I'm Onaje. I...

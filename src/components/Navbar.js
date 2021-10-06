@@ -4,12 +4,18 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <section id="navbar">
-      <div className="container flex justify-around py-4 tablet:justify-between tablet:px-4 tablet:text-lg bg-vampire-black min-w-full">
-        <Link to="/" className="text-dome-gold hover:text-golden-yellow">
+      <div className="container flex justify-start py-4 tablet:justify-start tablet:px-4 tablet:text-lg bg-vampire-black min-w-full">
+        <Link
+          to="/"
+          className="mr-4 tablet:mr-8 text-dome-gold hover:text-golden-yellow"
+        >
           Home
         </Link>
 
-        <Link to="/about" className="text-dome-gold hover:text-golden-yellow">
+        <Link
+          to="/about"
+          className="mr-4 text-dome-gold hover:text-golden-yellow"
+        >
           About Me
         </Link>
 

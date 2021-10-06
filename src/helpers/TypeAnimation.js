@@ -23,7 +23,7 @@ const TypeAnimation = () => {
   }, []);
 
   return (
-    <div className="text-dome-gold text-lg tablet:text-xl laptop:text-2xl p-6 rounded mt-8 mb-8 tablet:mb-16 bg-nd-blue">
+    <div className="text-dome-gold text-lg tablet:text-xl laptop:text-2xl p-6 mt-8 mb-8 tablet:mb-16">
       <span ref={element} />
     </div>
   );
