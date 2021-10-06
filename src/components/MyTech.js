@@ -3,19 +3,19 @@ import React from "react";
 const MyTech = () => {
   return (
     <section id="myTech">
-      <div className="flex flex-col items-center bg-irish-green py-4 tablet:py-8 laptop:py-12 min-w-full">
+      <div className="flex flex-col items-center bg-lighter-grey py-4 tablet:py-8 laptop:py-12 min-w-full">
         <div className="flex flex-col items-center">
           <h2 className="text-nd-blue text-2xl tablet:text-3xl laptop:text-4xl mb-6">
             My Tech
           </h2>
-          <p className="text-golden-yellow text-xl tablet:text-2xl laptop:text-3xl mb-4">
+          <p className="text-red-highlight text-xl tablet:text-2xl laptop:text-3xl mb-4">
             Constant learner === Continued growth
           </p>
         </div>
         <div className="flex flex-col items-center tablet:flex-row tablet:justify-around tablet:items-start min-w-full py-4">
           <div className="flex flex-col items-center">
             <i className="fas fa-laptop text-nd-blue text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
-            <h3 className="text-golden-yellow text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
+            <h3 className="text-red-highlight text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
               Front-end
             </h3>
             <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl  text-nd-blue">
@@ -34,7 +34,7 @@ const MyTech = () => {
           </div>
           <div className="flex flex-col items-center">
             <i className="fas fa-database text-nd-blue text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
-            <h3 className="text-golden-yellow text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
+            <h3 className="text-red-highlight text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
               Back-end
             </h3>
             <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl text-nd-blue ">
@@ -52,7 +52,7 @@ const MyTech = () => {
           </div>
           <div className="flex flex-col items-center">
             <i className="fas fa-tools text-nd-blue text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
-            <h3 className="text-golden-yellow text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
+            <h3 className="text-red-highlight text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
               Tools
             </h3>
             <ul className="flex flex-col items-center mb-6 text-lg tablet:text-xl laptop:text-2xl  text-nd-blue ">

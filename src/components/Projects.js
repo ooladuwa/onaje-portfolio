@@ -6,14 +6,14 @@ const Projects = () => {
   return (
     <section id="projects">
       <div className="bg-lighter-grey flex flex-col items-center justify-center p-4 tablet:p-8 min-w-full">
-        <h2 className="text-grey-water text-3xl mb-4 tablet:mb-8">
+        <h2 className="text-lighter-grey text-3xl mb-4 tablet:mb-8">
           My Projects
         </h2>
         <h4 className="text-xl mb-4 tablet:mb-8">
           Check out a sample of my work:
         </h4>
 
-        <div className="bg-dome-gold rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
+        <div className="bg-blue-minded rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
           <div
             id="project1"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between flex-shrink-0"
@@ -28,13 +28,13 @@ const Projects = () => {
               <h3 className="text-nd-blue text-xl tablet:text-2xl laptop:text-3xl">
                 Blue Witness Project
               </h3>
-              <p className="text-irish-green my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+              <p className="text-lighter-grey my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
                 Web
               </p>
               <p className="icons tablet:mb-4 laptop:mb:8">
-                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
-                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
-                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
+                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
               </p>
               <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
                 The Blue Witness Project is an app designed to collect and
@@ -43,7 +43,7 @@ const Projects = () => {
                 can contribute to a single source of truth on the topic of
                 police use-of-force.
               </p>
-              <div className="flex text-irish-green mt-2">
+              <div className="flex text-lighter-grey mt-2">
                 <a
                   className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
@@ -88,13 +88,13 @@ const Projects = () => {
               <h3 className="text-nd-blue text-xl tablet:text-2xl laptop:text-3xl">
                 Secret Family Recipes BE
               </h3>
-              <p className="text-irish-green my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+              <p className="text-lighter-grey my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
                 Web
               </p>
               <p className="icons tablet:mb-4 laptop:mb:8">
-                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
-                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
-                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
+                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
               </p>
               <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
                 Secret Family Recipes BE has a Node.js/Express back-end app
@@ -103,7 +103,7 @@ const Projects = () => {
                 able to create an account, login/logout, and create, store,
                 edit, delete, and search recipes.
               </p>
-              <div className="flex text-irish-green mt-2">
+              <div className="flex text-lighter-grey mt-2">
                 <a
                   className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
@@ -141,13 +141,13 @@ const Projects = () => {
               <h3 className="text-nd-blue text-xl tablet:text-2xl laptop:text-3xl">
                 Secret Family Recipes FE
               </h3>
-              <p className="text-irish-green my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+              <p className="text-lighter-grey my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
                 Web
               </p>
               <p className="icons tablet:mb-4 laptop:mb:8">
-                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
-                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
-                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-irish-green"></i>
+                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
               </p>
               <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
                 Secret Family Recipes FE is a React app designed to provide a
@@ -156,7 +156,7 @@ const Projects = () => {
                 login/logout, and create, store, edit, delete, and search
                 recipes.
               </p>
-              <div className="flex text-irish-green mt-2">
+              <div className="flex text-lighter-grey mt-2">
                 <a
                   className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"

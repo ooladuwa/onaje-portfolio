@@ -38,15 +38,21 @@ module.exports = {
         // => @media (min-width: 2560px) { ... }
       },
       colors: {
+        "raisin-black": "#241F1E", // raisin black
         "chinese-black": "#151515", // chinese black
-        "grey-water": "#5C5F58", // vampire black
+        "vampire-black": "#0A0A0A", // vampire black
         "nd-blue": "#0C2340", // ND blue
         "dome-gold": "#C99700", // standard dome gold
         "metallic-gold": "#AE9142", // metallic gold
-        "lighter-grey": "#DCE1E3", // light goldenrod yellow
+        "goldenrod-yellow": "#FBFCD4", // light goldenrod yellow
         "golden-yellow": "#FFDD03", // golden yellow
         "golden-poppy": "#FBC403", // golden poppy
-        "irish-green": "#00843D", // Irish green
+        "lighter-grey": "#00843D", // Irish green
+        "red-highlight": "#B73225",
+        "blue-minded": "#004E7C",
+        "maroon-6": "#591COB",
+        "lighter-grey": "#5C5F58",
+        "grey-water": "#DCE1E3",
       },
       fontFamily: {
         sans: ["Inter var"],
@@ -63,36 +69,42 @@ module.exports = {
           padding: ".5rem 1rem",
           borderRadius: "12",
           fontWeight: "600",
-          backgroundColor: "#ffdd03",
-          border: "solid 2px #0a0a0a",
-          color: "#0a0a0a",
+          backgroundColor: "#591COB",
+          border: "solid 2px #DCE1E3",
+          color: "#B73225",
 
           "&:hover": {
-            backgroundColor: "#0a0a0a",
-            border: "solid 2px #ffdd03",
-            color: "#ffdd03",
+            backgroundColor: "#B73225",
+            border: "solid 2px #DCE1E3",
+            color: "#5C5F58",
           },
         },
         ".btn-project": {
           padding: ".5rem 1rem",
           borderRadius: "12",
           fontWeight: "600",
-          backgroundColor: "#0c2340",
-          color: "#ffdd03",
+          backgroundColor: "#5C5F58",
+          border: "solid 2px #DCE1E3",
+          color: "#591COB",
+
           "&:hover": {
-            backgroundColor: "#ffdd03",
-            color: "#0c2340",
+            backgroundColor: "#591COB",
+            border: "solid 2px #DCE1E3",
+            color: "#5C5F58",
           },
         },
         ".btn-cta": {
           padding: ".5rem 1rem",
           borderRadius: "12",
           fontWeight: "600",
-          backgroundColor: "#FBC403",
-          color: "#0a0a0a",
+          backgroundColor: "#5C5F58",
+          border: "solid 2px #DCE1E3",
+          color: "#591COB",
+
           "&:hover": {
-            backgroundColor: "#0a0a0a",
-            color: "#FBC403",
+            backgroundColor: "#591COB",
+            border: "solid 2px #DCE1E3",
+            color: "#5C5F58",
           },
         },
       };
