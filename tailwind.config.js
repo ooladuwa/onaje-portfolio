@@ -13,6 +13,13 @@ module.exports = {
       close: "90vh",
       full: "100vh",
     },
+    minWidth: {
+      0: "0",
+      "1/4": "25%",
+      "1/2": "50%",
+      "3/4": "75%",
+      full: "100%",
+    },
     screens: {
       tablet: "640px",
       // => @media (min-width: 640px) { ... }
@@ -38,21 +45,25 @@ module.exports = {
         // => @media (min-width: 2560px) { ... }
       },
       colors: {
-        "raisin-black": "#241F1E", // raisin black
-        "chinese-black": "#151515", // chinese black
+        // "raisin-black": "#241F1E", // raisin black
+        // "chinese-black": "#151515", // chinese black
+        // "nd-blue": "#0C2340", // ND blue
+        // "dome-gold": "#C99700", // standard dome gold
+        // "metallic-gold": "#AE9142", // metallic gold
+        // "goldenrod-yellow": "#FBFCD4", // light goldenrod yellow
+        // "golden-yellow": "#FFDD03", // golden yellow
+        // "golden-poppy": "#FBC403", // golden poppy
+        // "irish-green": "#00843D", // Irish green
         "vampire-black": "#0A0A0A", // vampire black
-        "nd-blue": "#0C2340", // ND blue
-        "dome-gold": "#C99700", // standard dome gold
-        "metallic-gold": "#AE9142", // metallic gold
-        "goldenrod-yellow": "#FBFCD4", // light goldenrod yellow
-        "golden-yellow": "#FFDD03", // golden yellow
-        "golden-poppy": "#FBC403", // golden poppy
-        "lighter-grey": "#00843D", // Irish green
+        cloud: "#F3F3F3",
+        "light-grey": "#DCE1E3",
+        "grey-water": "#5C5F58",
+        "bright-red": "#DE354C",
         "red-highlight": "#B73225",
+        "deep-red": "#932432",
         "blue-minded": "#004E7C",
-        "maroon-6": "#591COB",
-        "lighter-grey": "#5C5F58",
-        "grey-water": "#DCE1E3",
+        "pure-purple": "#3C1874",
+        "purple-tinged-grey": "#283747",
       },
       fontFamily: {
         sans: ["Inter var"],
@@ -65,46 +76,18 @@ module.exports = {
   plugins: [
     plugin(function ({ addComponents }) {
       const buttons = {
-        ".btn-intro": {
+        ".btn": {
           padding: ".5rem 1rem",
           borderRadius: "12",
           fontWeight: "600",
-          backgroundColor: "#591COB",
-          border: "solid 2px #DCE1E3",
-          color: "#B73225",
+          backgroundColor: "#004E7C",
+          border: "solid 2px #932432",
+          color: "#DCE1E3",
 
           "&:hover": {
-            backgroundColor: "#B73225",
+            backgroundColor: "#283747",
             border: "solid 2px #DCE1E3",
-            color: "#5C5F58",
-          },
-        },
-        ".btn-project": {
-          padding: ".5rem 1rem",
-          borderRadius: "12",
-          fontWeight: "600",
-          backgroundColor: "#5C5F58",
-          border: "solid 2px #DCE1E3",
-          color: "#591COB",
-
-          "&:hover": {
-            backgroundColor: "#591COB",
-            border: "solid 2px #DCE1E3",
-            color: "#5C5F58",
-          },
-        },
-        ".btn-cta": {
-          padding: ".5rem 1rem",
-          borderRadius: "12",
-          fontWeight: "600",
-          backgroundColor: "#5C5F58",
-          border: "solid 2px #DCE1E3",
-          color: "#591COB",
-
-          "&:hover": {
-            backgroundColor: "#591COB",
-            border: "solid 2px #DCE1E3",
-            color: "#5C5F58",
+            color: "#DE354C",
           },
         },
       };

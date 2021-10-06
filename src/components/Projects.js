@@ -5,15 +5,15 @@ import sfr from "../assets/images/secret_family_recipes.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="bg-lighter-grey flex flex-col items-center justify-center p-4 tablet:p-8 min-w-full">
-        <h2 className="text-lighter-grey text-3xl mb-4 tablet:mb-8">
+      <div className="bg-blue-minded flex flex-col items-center justify-center p-4 tablet:p-8 min-w-full">
+        <h2 className="text-light-grey text-3xl mb-4 tablet:mb-8">
           My Projects
         </h2>
-        <h4 className="text-xl mb-4 tablet:mb-8">
+        <h4 className="text-light-grey text-xl mb-4 tablet:mb-8">
           Check out a sample of my work:
         </h4>
 
-        <div className="bg-blue-minded rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
+        <div className="bg-purple-tinged-grey rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
           <div
             id="project1"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between flex-shrink-0"
@@ -45,7 +45,7 @@ const Projects = () => {
               </p>
               <div className="flex text-lighter-grey mt-2">
                 <a
-                  className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a"
@@ -53,7 +53,7 @@ const Projects = () => {
                   FE Repo
                 </a>
                 <a
-                  className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/Lambda-School-Labs/human-rights-first-police-be-a"
@@ -61,7 +61,7 @@ const Projects = () => {
                   BE Repo
                 </a>
                 <a
-                  className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://a.humanrightsfirst.dev/"
@@ -73,7 +73,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-metallic-gold rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-pure-purple rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project2"
             className="flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between "
@@ -105,7 +105,7 @@ const Projects = () => {
               </p>
               <div className="flex text-lighter-grey mt-2">
                 <a
-                  className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/secret-family-recipes-6-pt"
@@ -113,7 +113,7 @@ const Projects = () => {
                   BE Repo
                 </a>
                 <a
-                  className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://lambda-build-week-secret-recipes.netlify.app/"
@@ -125,7 +125,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-golden-poppy rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-deep-red rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project3"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between "
@@ -158,7 +158,7 @@ const Projects = () => {
               </p>
               <div className="flex text-lighter-grey mt-2">
                 <a
-                  className="btn-project rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="Secret-family-recipes-tt-4/front-end: Our front-end group was fresh out of learning React, and we decided to take on Bootstrap with this project. Learning Bootstrap on the fly while creating this project was a fantastic experience"
