@@ -20,7 +20,7 @@ const Intro = () => {
             I'm Onaje.
           </h2>
           <TypeAnimation />
-          <button className="btn rounded-full text-lg laptop:text-xl laptop:mb-12 transition">
+          <button className="btn rounded-full text-lg laptop:text-xl mb-12 transition">
             <a href="mailto:onaje.oladuwa@gmail.com">Get In Touch</a>
           </button>
           <div className="container flex justify-center mb-4">
