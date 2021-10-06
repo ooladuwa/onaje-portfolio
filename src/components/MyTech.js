@@ -13,7 +13,7 @@ const MyTech = () => {
             <img
               src={developer}
               alt=""
-              className="h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-72 laptop:w-72 mt-8"
+              className="h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-72 laptop:w-72 mt-8 laptop:mt-12 laptop:mb-8"
             />
             {/* <p className="text-red-highlight text-xl tablet:text-2xl laptop:text-3xl mb-4">
               Constant learner === Continued growth
