@@ -7,13 +7,13 @@ const MyTech = () => {
       <div className="container flex flex-col items-center bg-cloud py-4 tablet:py-8 laptop:py-12 min-w-full">
         <div className="container rounded-3xl shadow-2xl flex flex-col items-center bg-onyx py-4 tablet:py-8 laptop:py-12 min-w-3/6">
           <div className="flex flex-col items-center">
-            <h2 className="text-rich text-2xl tablet:text-3xl laptop:text-4xl mb-6">
+            <h2 className="text-rich text-2xl tablet:text-3xl laptop:text-4xl">
               My Tech
             </h2>
             <img
               src={developer}
               alt=""
-              className="h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-72 laptop:w-72 m-8"
+              className="h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-72 laptop:w-72 mt-8"
             />
             {/* <p className="text-red-highlight text-xl tablet:text-2xl laptop:text-3xl mb-4">
               Constant learner === Continued growth
