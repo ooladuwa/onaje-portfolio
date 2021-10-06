@@ -2,13 +2,12 @@ import React from "react";
 import TypeAnimation from "../helpers/TypeAnimation.js";
 import "../helpers/animations.css";
 import naj from "../assets/images/darkNaj.jpeg";
-import developer from "../assets/images/developer.svg";
 
 const Intro = () => {
   return (
     <section id="intro">
-      <div className="container bg-jet flex flex-col items-center justify-center min-w-full min-h-full">
-        <div className="container rounded p-8 bg-rich shadow-2xl flex flex-col items-center justify-center">
+      <div className="container bg-jet flex flex-col items-center justify-center min-w-full min-h-full laptop:px-18">
+        <div className="container rounded-3xl p-8 mt-14 bg-rich shadow-2xl flex flex-col items-center justify-center min-h-3/4">
           <img
             src={naj}
             alt="man who built site in circular frame"
@@ -21,7 +20,7 @@ const Intro = () => {
             I'm Onaje.
           </h2>
           <TypeAnimation />
-          <button className="btn rounded-full py-2 px-4 mb-8 text-lg laptop:text-xl laptop:mb-12 transition">
+          <button className="btn py-2 px-4 mb-8 text-lg laptop:text-xl laptop:mb-12 transition">
             <a href="mailto:onaje.oladuwa@gmail.com">Get In Touch</a>
           </button>
           <div className="container flex justify-center mb-4">

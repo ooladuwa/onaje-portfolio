@@ -45,23 +45,14 @@ module.exports = {
         // => @media (min-width: 2560px) { ... }
       },
       colors: {
-        // "raisin-black": "#241F1E", // raisin black
-        // "chinese-black": "#151515", // chinese black
-        // "nd-blue": "#0C2340", // ND blue
-        // "dome-gold": "#C99700", // standard dome gold
-        // "metallic-gold": "#AE9142", // metallic gold
-        // "goldenrod-yellow": "#FBFCD4", // light goldenrod yellow
-        // "golden-yellow": "#FFDD03", // golden yellow
-        // "golden-poppy": "#FBC403", // golden poppy
-        // "irish-green": "#00843D", // Irish green
-        cloud: "#F3F3F3",
-        vamp: "#0A0A0A", //vampire black
         rich: "#030303", // rich black
+        vamp: "#0A0A0A", //vampire black
+        jet: "#333333", // jet
         onyx: "#3F4045", // onyx
+        cloud: "#F3F3F3", // cloud
         lav: "#D0C4DF", //languid lavender
         sheen: "#5DB2A5", // green sheen
         minion: "#F4E04E", //minion yellow
-        jet: "#333333", // jet
       },
       fontFamily: {
         sans: ["Inter var"],

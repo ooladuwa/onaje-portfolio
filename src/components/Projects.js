@@ -5,7 +5,7 @@ import sfr from "../assets/images/secret_family_recipes.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="bg-blue-minded flex flex-col items-center justify-center p-4 tablet:p-8 min-w-full">
+      <div className="bg-blue-minded flex flex-col items-center justify-center p-4 tablet:p-8 laptop:px-12 min-w-full">
         <h2 className="text-light-grey text-3xl mb-4 tablet:mb-8">
           My Projects
         </h2>
@@ -13,7 +13,7 @@ const Projects = () => {
           Check out a sample of my work:
         </h4>
 
-        <div className="bg-cloud rounded flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
+        <div className="bg-cloud rounded-3xl flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
           <div
             id="project1"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between flex-shrink-0"
@@ -73,7 +73,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-cloud rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-cloud rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project2"
             className="flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between "
@@ -125,7 +125,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-cloud rounded flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-cloud rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project3"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between "
