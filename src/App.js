@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home.js";
 import About from "./components/About.js";
-import Resume from "./components/Resume.js";
+// import Resume from "./components/Resume.js";
 import Navbar from "./components/Navbar.js";
 import FooterCTA from "./components/FooterCTA.js";
 import Footer from "./components/Footer.js";
@@ -18,7 +18,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
-            <Route path="/resume" exact component={Resume} />
+            {/* <Route path="/resume" exact component={Resume} /> */}
           </Switch>
           <FooterCTA />
           <Footer />
