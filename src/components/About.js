@@ -1,8 +1,8 @@
 import React from "react";
 import dev from "../assets/images/about-dev.svg";
-import leaf from "../assets/images/about-leaf.svg";
-import travel from "../assets/images/about-travel.svg";
-import hanging from "../assets/images/hanging.jpg";
+// import leaf from "../assets/images/about-leaf.svg";
+// import travel from "../assets/images/about-travel.svg";
+// import hanging from "../assets/images/hanging.jpg";
 import saban from "../assets/images/saban.jpg";
 
 const About = () => {
