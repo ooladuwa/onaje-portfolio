@@ -7,7 +7,7 @@ const MyTech = () => {
       <div className="container flex flex-col items-center bg-cloud py-4 tablet:py-8 laptop:py-12 min-w-full">
         <div className="container rounded-3xl shadow-2xl flex flex-col items-center bg-onyx py-4 tablet:py-8 laptop:py-12 min-w-3/6">
           <div className="flex flex-col items-center">
-            <h2 className="text-rich text-2xl tablet:text-3xl laptop:text-4xl">
+            <h2 className="text-sheen text-2xl tablet:text-3xl laptop:text-4xl">
               My Tech
             </h2>
             <img
@@ -21,7 +21,7 @@ const MyTech = () => {
           </div>
           <div className="flex flex-col items-center tablet:flex-row tablet:justify-around tablet:items-start min-w-full py-4 min-h-0">
             <div className="bg-cloud rounded-xl shadow-xl m-8 p-10 laptop:pb-14 laptop:ml-9 flex flex-col items-center min-h-1/4">
-              <i className="fas fa-laptop text-red-highlight text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
+              <i className="fas fa-laptop text-sheen text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
               <h3 className="text-blue-minded text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
                 Front-end
               </h3>
@@ -39,7 +39,7 @@ const MyTech = () => {
               </ul>
             </div>
             <div className="bg-cloud rounded-xl shadow-xl p-12 m-8 flex flex-col items-center min-h-1/4">
-              <i className="fas fa-database text-red-highlight text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
+              <i className="fas fa-database text-sheen text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
               <h3 className="text-blue-minded text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
                 Back-end
               </h3>
@@ -57,7 +57,7 @@ const MyTech = () => {
               </ul>
             </div>
             <div className="bg-cloud rounded-xl shadow-xl p-8 m-8 laptop:pb-14 flex flex-col items-center min-h-1/4">
-              <i className="fas fa-tools text-red-highlight text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
+              <i className="fas fa-tools text-sheen text-3xl laptop:text-4xl mb-2 tablet:mb-4 laptop:mb-6"></i>
               <h3 className="text-blue-minded text-xl tablet:text-2xl laptop:text-3xl mb-2 tablet:mb-4 laptop:mb-6">
                 Tools
               </h3>

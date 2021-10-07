@@ -16,8 +16,8 @@ function App() {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" exact component={About} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
             {/* <Route path="/resume" exact component={Resume} /> */}
           </Switch>
           <FooterCTA />

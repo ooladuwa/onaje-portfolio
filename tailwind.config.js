@@ -46,13 +46,15 @@ module.exports = {
       },
       colors: {
         rich: "#030303", // rich black
-        vamp: "#0A0A0A", //vampire black
+        vamp: "#0A0A0A", // vampire black
         jet: "#333333", // jet
         onyx: "#3F4045", // onyx
         cloud: "#F3F3F3", // cloud
-        lav: "#D0C4DF", //languid lavender
+        silver: "#BFC0C5", // silver
+        lav: "#D0C4DF", // languid lavender
+        violet: "#A188BF", // African Violet
         sheen: "#5DB2A5", // green sheen
-        minion: "#F4E04E", //minion yellow
+        minion: "#F4E04E", // minion yellow
       },
       fontFamily: {
         sans: ["Inter var"],

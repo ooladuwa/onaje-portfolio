@@ -14,7 +14,7 @@ const Intro = () => {
             className="rounded-full shadow-lg h-48 w-48 tablet:h-56 tablet:w-56 laptop:h-80 laptop:w-80"
           />
           <h2 className="mt-4 tablet:mt-8 text-xl tablet:text-2xl laptop:text-4xl text-lav">
-            Hello,
+            Hi!
           </h2>
           <h2 className="mt-4 tablet:mt-8 text-2xl tablet:text-3xl laptop:text-5xl text-lav">
             I'm Onaje.
