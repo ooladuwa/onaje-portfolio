@@ -1,15 +1,19 @@
 import React from "react";
 import blueWitness from "../assets/images/blue_witness.png";
 import sfr from "../assets/images/secret_family_recipes.png";
+import responsive from "../assets/images/responsive.svg";
 
 const Projects = () => {
   return (
     <section id="projects">
       <div className="bg-blue-minded flex flex-col items-center justify-center p-4 tablet:p-8 laptop:px-12 min-w-full">
-        <h2 className="text-light-grey text-3xl mb-4 tablet:mb-8">
-          My Projects
-        </h2>
-        <h4 className="text-light-grey text-xl mb-4 tablet:mb-8">
+        <h2 className="text-sheen text-3xl">My Projects</h2>
+        <img
+          src={responsive}
+          alt=""
+          className="h-48 w-48 my-4 tablet:h-56 tablet:w-56 laptop:h-80 laptop:w-80 "
+        />
+        <h4 className="text-sheen text-xl mb-4 tablet:mb-8">
           Check out a sample of my work:
         </h4>
 
