@@ -6,7 +6,7 @@ import responsive from "../assets/images/responsive.svg";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="bg-blue-minded flex flex-col items-center justify-center p-4 tablet:p-8 laptop:px-12 min-w-full">
+      <div className="bg-onyx flex flex-col items-center justify-center p-4 tablet:p-8 laptop:px-12 min-w-full">
         <h2 className="text-sheen text-3xl">My Projects</h2>
         <img
           src={responsive}
@@ -17,7 +17,7 @@ const Projects = () => {
           Check out a sample of my work:
         </h4>
 
-        <div className="bg-cloud rounded-3xl flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
+        <div className="bg-silver rounded-3xl flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
           <div
             id="project1"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between flex-shrink-0"
@@ -28,17 +28,17 @@ const Projects = () => {
                 alt="screenshot of website displaying map with circular clusters of numbers"
               />
             </div>
-            <div className="flex flex-col m-4 tablet:m-8 laptop:mt-0 laptop:w-11/12">
-              <h3 className="text-nd-blue text-xl tablet:text-2xl laptop:text-3xl">
+            <div className="m-4 tablet:m-8 laptop:mt-0 laptop:w-11/12">
+              <h3 className="text-vamp text-xl tablet:text-2xl laptop:text-3xl">
                 Blue Witness Project
               </h3>
-              <p className="text-lighter-grey my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+              <p className="text-vamp my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
                 Web
               </p>
-              <p className="icons tablet:mb-4 laptop:mb:8">
-                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
-                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
-                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+              <p className="icons text-sheen tablet:mb-4 laptop:mb:8">
+                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl"></i>
+                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl"></i>
+                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl"></i>
               </p>
               <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
                 The Blue Witness Project is an app designed to collect and
@@ -47,14 +47,14 @@ const Projects = () => {
                 can contribute to a single source of truth on the topic of
                 police use-of-force.
               </p>
-              <div className="flex text-lighter-grey mt-2">
+              <div className="flex mt-2">
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a"
                 >
-                  FE Repo
+                  Frontend Repo
                 </a>
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
@@ -62,7 +62,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Lambda-School-Labs/human-rights-first-police-be-a"
                 >
-                  BE Repo
+                  Backend Repo
                 </a>
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
@@ -70,14 +70,14 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   href="https://a.humanrightsfirst.dev/"
                 >
-                  Site
+                  Deployed Site
                 </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="bg-cloud rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-lav rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project2"
             className="flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between "
@@ -89,32 +89,32 @@ const Projects = () => {
               />
             </div>
             <div className="flex flex-col m-4 tablet:m-8  laptop:mt-0 laptop:w-11/12">
-              <h3 className="text-nd-blue text-xl tablet:text-2xl laptop:text-3xl">
-                Secret Family Recipes BE
+              <h3 className="text-vamp text-xl tablet:text-2xl laptop:text-3xl">
+                Secret Family Recipes - backend
               </h3>
-              <p className="text-lighter-grey my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+              <p className="text-vamp my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
                 Web
               </p>
-              <p className="icons tablet:mb-4 laptop:mb:8">
+              <p className="icons text-sheen tablet:mb-4 laptop:mb:8">
                 <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
                 <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
                 <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
               </p>
-              <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
-                Secret Family Recipes BE has a Node.js/Express back-end app
+              <p className="text-vamp tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
+                Secret Family Recipes has a Node.js/Express back-end app
                 designed to provide a safe space to store, access, and
                 contribute to the recipes that define communities. Users are
                 able to create an account, login/logout, and create, store,
                 edit, delete, and search recipes.
               </p>
-              <div className="flex text-lighter-grey mt-2">
+              <div className="flex mt-2">
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/secret-family-recipes-6-pt"
                 >
-                  BE Repo
+                  Backend Repo
                 </a>
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
@@ -122,7 +122,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   href="https://lambda-build-week-secret-recipes.netlify.app/"
                 >
-                  Site
+                  Deployed Site
                 </a>
               </div>
             </div>
@@ -142,32 +142,34 @@ const Projects = () => {
             </div>
 
             <div className="flex flex-col m-4 tablet:m-8  laptop:mt-0 laptop:w-11/12 laptop:text-3xl">
-              <h3 className="text-nd-blue text-xl tablet:text-2xl laptop:text-3xl">
-                Secret Family Recipes FE
+              <h3 className="text-vamp text-xl tablet:text-2xl laptop:text-3xl">
+                Secret Family Recipes - Frontend
               </h3>
-              <p className="text-lighter-grey my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+              <p className="text-vamp my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
                 Web
               </p>
-              <p className="icons tablet:mb-4 laptop:mb:8">
+              <p className="icons text-sheen tablet:mb-4 laptop:mb:8">
                 <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
                 <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
                 <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
               </p>
-              <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
-                Secret Family Recipes FE is a React app designed to provide a
-                safe space to store, access, and contribute to the recipes that
+              <p className="text-vamp tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
+                Secret Family Recipes is a React app designed to provide a safe
+                space to store, access, and contribute to the recipes that
                 define communities. Users are able to create an account,
                 login/logout, and create, store, edit, delete, and search
-                recipes.
+                Completed when fresh out of learning React, we decided to take
+                on Bootstrap with this project. Learning Bootstrap on the fly
+                while creating this project was a fantastic experience"
               </p>
-              <div className="flex text-lighter-grey mt-2">
+              <div className="flex mt-2">
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="Secret-family-recipes-tt-4/front-end: Our front-end group was fresh out of learning React, and we decided to take on Bootstrap with this project. Learning Bootstrap on the fly while creating this project was a fantastic experience"
+                  href="https://github.com/Secret-family-recipes-tt-4/front-end"
                 >
-                  FE Repo
+                  Frontend Repo
                 </a>
               </div>
               {/* <a
@@ -176,7 +178,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
                 href="https://potluck-azure.vercel.app"
               >
-                Site
+                Deployed Site
               </a> */}
             </div>
           </div>
