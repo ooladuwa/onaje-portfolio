@@ -10,8 +10,7 @@ const About = () => {
     <section id="about">
       <div className="container bg-onyx flex flex-col items-center justify-center min-w-full min-h-close pt-12 laptop:px-18">
         <div className="border-2 border-minion border-solid container flex flex-col justify-center items-center min-w-full">
-          <p className="pt-16">Here's a little bit</p>
-          <h1 className="pt-16">About Me</h1>
+          <h1 className="pt-8 text-minion text-3xl">Call me Naj...</h1>
           <img
             src={dev}
             alt=""
@@ -19,8 +18,8 @@ const About = () => {
           />
         </div>
 
-        <div className="container bg-violet mt-48 flex flex-col text-rich text-xl min-w-3/4">
-          <img src={saban} alt="" className="h-48 w-1/2 self-center" />
+        <div className="container bg-violet mt-8 flex flex-col text-rich text-xl min-w-full">
+          <img src={saban} alt="" className="  self-center" />
         </div>
       </div>
     </section>
