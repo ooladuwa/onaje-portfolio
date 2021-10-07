@@ -6,7 +6,7 @@ import naj from "../assets/images/darkNaj.jpeg";
 const Intro = () => {
   return (
     <section id="intro">
-      <div className="container bg-jet flex flex-col items-center justify-center min-w-full min-h-full laptop:px-18">
+      <div className="container bg-jet flex flex-col items-center justify-center min-w-full min-h-close laptop:px-18">
         <div className="container rounded-3xl p-8 mt-14 bg-rich shadow-2xl flex flex-col items-center justify-center">
           <img
             src={naj}
