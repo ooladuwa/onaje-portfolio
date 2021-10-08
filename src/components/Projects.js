@@ -6,18 +6,20 @@ import responsive from "../assets/images/responsive.svg";
 const Projects = () => {
   return (
     <section id="projects">
-      <div className="bg-onyx flex flex-col items-center justify-center p-4 tablet:p-8 laptop:px-12 min-w-full">
-        <h2 className="text-sheen text-3xl">My Projects</h2>
+      <div className="bg-jet flex flex-col items-center justify-center p-4 tablet:p-8 laptop:px-12 min-w-full">
+        <h2 className="text-sheen text-2xl tablet:text-3xl laptop:text-4xl">
+          My Projects
+        </h2>
         <img
           src={responsive}
           alt=""
           className="h-48 w-48 my-4 tablet:h-56 tablet:w-56 laptop:h-80 laptop:w-80 "
         />
-        <h4 className="text-sheen text-xl mb-4 tablet:mb-8">
+        <h4 className="text-sheen text-xl mb-4 tablet:mb-8 tablet:text-xl laptop:text-2xl">
           Check out a sample of my work:
         </h4>
 
-        <div className="bg-silver rounded-3xl flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
+        <div className="bg-lav rounded-3xl flex flex-col my-4 laptop:mb-16 laptop:justify-between min-w-full">
           <div
             id="project1"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between flex-shrink-0"
@@ -129,7 +131,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="bg-cloud rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+        <div className="bg-lav rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
           <div
             id="project3"
             className="flex flex-col my-4 laptop:mb-16 laptop:flex laptop:flex-row laptop:justify-between "

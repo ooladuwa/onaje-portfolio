@@ -17,10 +17,10 @@ const About = () => {
           <h4 className="self-center text-lg text-violet tablet:text-xl laptop:text-2xl">
             measured my capabilities...
           </h4>
-          <h3 className="self-center text-xl text-minion mt-4 tablet:text-3xl laptop:text-4xl">
+          <h3 className="self-center text-xl text-sheen mt-4 tablet:text-3xl laptop:text-4xl">
             but, who am I?
           </h3>
-          <h1 className="text-4xl text-sheen my-4 tablet:text-5xl laptop:text-6xl">
+          <h1 className="text-4xl text-minion my-4 tablet:text-5xl laptop:text-6xl">
             Call me Naj.
           </h1>
           <img
