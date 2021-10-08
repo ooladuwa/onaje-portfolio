@@ -211,7 +211,7 @@ const Projects = () => {
                 an account, login/logout, and create, store, edit, delete, and
                 search recipes. Completed fresh from learning React, we chose
                 Bootstrap for styling. Learning Bootstrap on the fly while
-                utilizing new React skills was a fantastic experience"
+                utilizing new React skills was challenging but fantastic.
               </p>
               <div className="flex mt-2">
                 <a
