@@ -1,6 +1,7 @@
 import React from "react";
 import blueWitness from "../assets/images/blue_witness.png";
 import sfr from "../assets/images/secret_family_recipes.png";
+import covid from "../assets/images/covid.png";
 import responsive from "../assets/images/responsive.svg";
 
 const Projects = () => {
@@ -45,7 +46,7 @@ const Projects = () => {
               <p className="tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
                 The Blue Witness Project is an app designed to collect and
                 contextualize police use of force incidents in the USA.
-                Crowd-sourced from Twitter, we create a platform where people
+                Crowd-sourced from Twitter, we created a platform where people
                 can contribute to a single source of truth on the topic of
                 police use-of-force.
               </p>
@@ -123,6 +124,56 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://lambda-build-week-secret-recipes.netlify.app/"
+                >
+                  Deployed Site
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-lav rounded-3xl flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between min-w-full">
+          <div
+            id="project4"
+            className="flex flex-col my-4 laptop:mb-16  laptop:flex laptop:flex-row laptop:justify-between "
+          >
+            <div className="mx-4 laptop:w-11/12">
+              <img
+                src={covid}
+                alt="screenshot of webpage showing world map with red clusters and a table of data on right side"
+              />
+            </div>
+            <div className="flex flex-col m-4 tablet:m-8  laptop:mt-0 laptop:w-11/12">
+              <h3 className="text-vamp text-xl tablet:text-2xl laptop:text-3xl">
+                Covid-19 Tracker
+              </h3>
+              <p className="text-vamp my-2 tablet:my-4 tablet:text-xl laptop:text-2xl">
+                Web
+              </p>
+              <p className="icons text-sheen tablet:mb-4 laptop:mb:8">
+                <i className="fas fa-desktop mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-tablet mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+                <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
+              </p>
+              <p className="text-vamp tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
+                Covid-19 Tracker is built using React, Firebase, and Material
+                UI. This project was completed via the assistance of an online
+                tutorial at the height of the pandemic.
+              </p>
+              <div className="flex mt-2">
+                <a
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/ooladuwa/covid-19-tracker"
+                >
+                  Complete Repo
+                </a>
+                <a
+                  className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://onaje-covid-19-tracker.netlify.app/"
                 >
                   Deployed Site
                 </a>
