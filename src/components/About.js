@@ -9,7 +9,6 @@ import saban from "../assets/images/saban.jpg";
 const About = () => {
   return (
     <section id="about">
-      {/* <div>{SVG}</div> */}
       <div className="container bg-onyx flex flex-col items-center justify-center min-w-full min-h-full pt-6 laptop:px-18">
         <div className="container flex flex-col justify-center items-center min-w-full mt-2">
           <h5 className="self-center text-med text-lav">
@@ -21,9 +20,6 @@ const About = () => {
           <h3 className="self-center text-xl text-minion mt-4">
             but who AM I?
           </h3>
-          {/* <button className="btn" onClick={Text}>
-              find out
-            </button> */}
           <h1 className="text-4xl text-sheen mt-4">Call me Naj.</h1>
           <img
             src={dev}
