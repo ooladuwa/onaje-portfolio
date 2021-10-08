@@ -154,13 +154,11 @@ const Projects = () => {
                 <i className="fas fa-mobile mr-4 tablet:mr-8 tablet:text-xl laptop:mr-10 laptop:text-2xl text-lighter-grey"></i>
               </p>
               <p className="text-vamp tablet:text-xl tablet:my-2 laptop:text-2xl laptop:my-4">
-                Secret Family Recipes is a React app designed to provide a safe
-                space to store, access, and contribute to the recipes that
-                define communities. Users are able to create an account,
-                login/logout, and create, store, edit, delete, and search
-                Completed when fresh out of learning React, we decided to take
-                on Bootstrap with this project. Learning Bootstrap on the fly
-                while creating this project was a fantastic experience"
+                Secret Family Recipes is a React app. Users are able to create
+                an account, login/logout, and create, store, edit, delete, and
+                search recipes. Completed fresh from learning React, we chose
+                Bootstrap for styling. Learning Bootstrap on the fly while
+                utilizing new React skills was a fantastic experience"
               </p>
               <div className="flex mt-2">
                 <a
