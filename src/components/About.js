@@ -187,7 +187,7 @@ const About = () => {
               href="https://www.computerworld.com/article/3574917/the-state-of-ethnic-minorities-in-us-tech-2020.html"
               className="underline hover:text-silver"
             >
-              folk
+              talent
             </a>{" "}
             under-represented in tech space.
           </p>
