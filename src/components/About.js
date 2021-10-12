@@ -61,21 +61,21 @@ const About = () => {
             Since adulting began, I graduated from{" "}
             <a
               href="https://www.tufts.edu"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               Tufts University
             </a>{" "}
             where I studied in a{" "}
             <a
               href="https://www.macjannet.org/history-of-le-prieureacute.html"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               1,000 year-old monastery
             </a>{" "}
             and water-skied on the{" "}
             <a
               href="https://en.wikipedia.org/wiki/Lake_Annecy"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               cleanest lake
             </a>{" "}
@@ -86,21 +86,21 @@ const About = () => {
             several times, moved to a{" "}
             <a
               href="https://www.visittheusa.com/destination/st-john"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               tropical island
             </a>
             , called a{" "}
             <a
               href="https://en.wikipedia.org/wiki/Lula,_Mississippi"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               town{" "}
             </a>
             of less than 400 people home directly after residing in a{" "}
             <a
               href="https://en.wikipedia.org/wiki/Allin_House"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               {" "}
               home{" "}
@@ -108,28 +108,28 @@ const About = () => {
             on the National Register of Historic Places, lived and worked{" "}
             <a
               href="https://en.wikipedia.org/wiki/Cheonan"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               abroad
             </a>
             , spent weeks in solitude and/or{" "}
             <a
               href="https://www.dhamma.org/en-US/index"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               silent meditation
             </a>
             , and rode my{" "}
             <a
               href="https://www.motorcycle.com/specs/kawasaki/cruiser/2009/vulcan-reg-900/classic.html"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               Kawasaki Vulcan
             </a>{" "}
             900 Classic on the world-famous{" "}
             <a
               href="https://roadtrippers.com/tail-of-the-dragon/"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               Tail of the Dragon
             </a>
@@ -140,7 +140,7 @@ const About = () => {
             I relished these experiences, but it was as a{" "}
             <a
               href="https://roadtrippers.com/tail-of-the-dragon/"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               TFA Corps Member
             </a>
@@ -156,7 +156,7 @@ const About = () => {
             There are, for me, parallels between education and tech.{" "}
             <a
               href="https://files.eric.ed.gov/fulltext/ED606970.pdf"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               Public education
             </a>{" "}
@@ -185,7 +185,7 @@ const About = () => {
             forged in education to mentor and develop a new generation of{" "}
             <a
               href="https://www.computerworld.com/article/3574917/the-state-of-ethnic-minorities-in-us-tech-2020.html"
-              className="text-minion hover:text-silver"
+              className="underline hover:text-silver"
             >
               folk
             </a>{" "}
