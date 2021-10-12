@@ -7,6 +7,7 @@ import About from "./components/About.js";
 import Navbar from "./components/Navbar.js";
 import FooterCTA from "./components/FooterCTA.js";
 import Footer from "./components/Footer.js";
+import Scroll from "./helpers/Scroll.js"
 
 function App() {
   const ThemeContext = React.createContext("typed");
@@ -14,6 +15,7 @@ function App() {
     <main className=" container bg-onyx text-vamp min-w-full body-font">
       <ThemeContext.Provider value="typed">
         <Router>
+          <Scroll>
           <Navbar />
           <Switch>
             <Route exact path="/" component={Home} />
@@ -22,6 +24,7 @@ function App() {
           </Switch>
           <FooterCTA />
           <Footer />
+          <Scroll />
         </Router>
       </ThemeContext.Provider>
     </main>
