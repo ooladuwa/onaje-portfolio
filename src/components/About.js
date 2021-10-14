@@ -63,6 +63,7 @@ const About = () => {
               href="https://www.tufts.edu"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Tufts University
             </a>{" "}
@@ -71,6 +72,7 @@ const About = () => {
               href="https://www.macjannet.org/history-of-le-prieureacute.html"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               1,000 year-old monastery
             </a>{" "}
@@ -79,6 +81,7 @@ const About = () => {
               href="https://en.wikipedia.org/wiki/Lake_Annecy"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               cleanest lake
             </a>{" "}
@@ -91,6 +94,7 @@ const About = () => {
               href="https://www.visittheusa.com/destination/st-john"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               tropical island
             </a>
@@ -99,6 +103,7 @@ const About = () => {
               href="https://en.wikipedia.org/wiki/Lula,_Mississippi"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               town{" "}
             </a>
@@ -107,6 +112,7 @@ const About = () => {
               href="https://en.wikipedia.org/wiki/Allin_House"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               {" "}
               home{" "}
@@ -116,6 +122,7 @@ const About = () => {
               href="https://en.wikipedia.org/wiki/Cheonan"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               abroad
             </a>
@@ -124,6 +131,7 @@ const About = () => {
               href="https://www.dhamma.org/en-US/index"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               silent meditation
             </a>
@@ -132,6 +140,7 @@ const About = () => {
               href="https://www.motorcycle.com/specs/kawasaki/cruiser/2009/vulcan-reg-900/classic.html"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Kawasaki Vulcan
             </a>{" "}
@@ -140,6 +149,7 @@ const About = () => {
               href="https://roadtrippers.com/tail-of-the-dragon/"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Tail of the Dragon
             </a>
@@ -152,6 +162,7 @@ const About = () => {
               href="https://www.teachforamerica.org/"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               TFA Corps Member
             </a>
@@ -169,6 +180,7 @@ const About = () => {
               href="https://files.eric.ed.gov/fulltext/ED606970.pdf"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Public education
             </a>{" "}
@@ -199,6 +211,7 @@ const About = () => {
               href="https://www.computerworld.com/article/3574917/the-state-of-ethnic-minorities-in-us-tech-2020.html"
               className="underline hover:text-silver"
               target="_blank"
+              rel="noopener noreferrer"
             >
               talent
             </a>{" "}
