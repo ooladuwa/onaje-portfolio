@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="container bg-onyx flex flex-col items-center justify-center min-w-full min-h-full pt-6 laptop:px-18">
-        <div className="container flex flex-col justify-center items-center min-w-full m-2 tablet:mt-4 laptop:mt-8">
+        <div className="container flex flex-col justify-center items-center min-w-full pt-8 m-2 tablet:mt-4 laptop:mt-8">
           <h5 className="self-center text-lg text-lav tablet:text-xl laptop:text-2xl">
             You've scrutinized my knowledge base...
           </h5>
