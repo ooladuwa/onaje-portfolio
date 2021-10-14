@@ -49,6 +49,12 @@ const Projects = () => {
                 Crowd-sourced from Twitter, we created a platform where people
                 can contribute to a single source of truth on the topic of
                 police use-of-force.
+                <br />I worked primarily on the map function of the app. A
+                long-standing bug prevented the data bubbles from accurately
+                incrementing once an administrator approved an incident.
+                Additionally, created functionality and implemented dashboard
+                button allowing administrator to delete incidents that were
+                mistakenly approved.
               </p>
               <div className="flex mt-2">
                 <a
@@ -109,6 +115,12 @@ const Projects = () => {
                 contribute to the recipes that define communities. Users are
                 able to create an account, login/logout, and create, store,
                 edit, delete, and search recipes.
+                <br />
+                This was my first foray into building a complete backend from
+                scratch by myself. I found the most challenging aspect really
+                thinking deeply about the relationship between the various
+                pieces of data we'd be handling. I created multiple middleware
+                functions that reduced redundancy.
               </p>
               <div className="flex mt-2">
                 <a
@@ -165,15 +177,15 @@ const Projects = () => {
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/ooladuwa/covid-19-tracker"
+                  href="https://github.com/secret-family-recipes-6-pt"
                 >
-                  Complete Repo
+                  Backend Repo
                 </a>
                 <a
                   className="btn rounded-full py-2 px-4 tablet:text-lg mr-4 tablet:mr-8 laptop:mr-10"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://onaje-covid-19-tracker.netlify.app/"
+                  href="https://lambda-build-week-secret-recipes.netlify.app/"
                 >
                   Deployed Site
                 </a>
@@ -211,7 +223,7 @@ const Projects = () => {
                 an account, login/logout, and create, store, edit, delete, and
                 search recipes. Completed fresh from learning React, we chose
                 Bootstrap for styling. Learning Bootstrap on the fly while
-                utilizing new React skills was challenging but fantastic.
+                utilizing new React skills was a fantastic experience"
               </p>
               <div className="flex mt-2">
                 <a
