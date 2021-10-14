@@ -62,6 +62,7 @@ const About = () => {
             <a
               href="https://www.tufts.edu"
               className="underline hover:text-silver"
+              target="_blank"
             >
               Tufts University
             </a>{" "}
@@ -69,6 +70,7 @@ const About = () => {
             <a
               href="https://www.macjannet.org/history-of-le-prieureacute.html"
               className="underline hover:text-silver"
+              target="_blank"
             >
               1,000 year-old monastery
             </a>{" "}
@@ -76,6 +78,7 @@ const About = () => {
             <a
               href="https://en.wikipedia.org/wiki/Lake_Annecy"
               className="underline hover:text-silver"
+              target="_blank"
             >
               cleanest lake
             </a>{" "}
@@ -87,6 +90,7 @@ const About = () => {
             <a
               href="https://www.visittheusa.com/destination/st-john"
               className="underline hover:text-silver"
+              target="_blank"
             >
               tropical island
             </a>
@@ -94,6 +98,7 @@ const About = () => {
             <a
               href="https://en.wikipedia.org/wiki/Lula,_Mississippi"
               className="underline hover:text-silver"
+              target="_blank"
             >
               town{" "}
             </a>
@@ -101,6 +106,7 @@ const About = () => {
             <a
               href="https://en.wikipedia.org/wiki/Allin_House"
               className="underline hover:text-silver"
+              target="_blank"
             >
               {" "}
               home{" "}
@@ -109,6 +115,7 @@ const About = () => {
             <a
               href="https://en.wikipedia.org/wiki/Cheonan"
               className="underline hover:text-silver"
+              target="_blank"
             >
               abroad
             </a>
@@ -116,6 +123,7 @@ const About = () => {
             <a
               href="https://www.dhamma.org/en-US/index"
               className="underline hover:text-silver"
+              target="_blank"
             >
               silent meditation
             </a>
@@ -123,6 +131,7 @@ const About = () => {
             <a
               href="https://www.motorcycle.com/specs/kawasaki/cruiser/2009/vulcan-reg-900/classic.html"
               className="underline hover:text-silver"
+              target="_blank"
             >
               Kawasaki Vulcan
             </a>{" "}
@@ -130,6 +139,7 @@ const About = () => {
             <a
               href="https://roadtrippers.com/tail-of-the-dragon/"
               className="underline hover:text-silver"
+              target="_blank"
             >
               Tail of the Dragon
             </a>
@@ -139,8 +149,9 @@ const About = () => {
           <p>
             I relished these experiences, but it was as a{" "}
             <a
-              href="https://roadtrippers.com/tail-of-the-dragon/"
+              href="https://www.teachforamerica.org/"
               className="underline hover:text-silver"
+              target="_blank"
             >
               TFA Corps Member
             </a>
@@ -157,6 +168,7 @@ const About = () => {
             <a
               href="https://files.eric.ed.gov/fulltext/ED606970.pdf"
               className="underline hover:text-silver"
+              target="_blank"
             >
               Public education
             </a>{" "}
@@ -186,6 +198,7 @@ const About = () => {
             <a
               href="https://www.computerworld.com/article/3574917/the-state-of-ethnic-minorities-in-us-tech-2020.html"
               className="underline hover:text-silver"
+              target="_blank"
             >
               talent
             </a>{" "}
@@ -203,5 +216,4 @@ const About = () => {
     </section>
   );
 };
-// tablet:h-56 tablet:w-64 laptop:h-auto laptop:w-auto
 export default About;
